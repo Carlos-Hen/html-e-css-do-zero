@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital@0;1&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: black;
+}
+
+.apresentacao {
+	padding: 5% 15%;
+}
+
+.apresentacao__conteudo {
+	width: 50%;
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 40px;
+}
+
+.apresentacao__conteudo__titulo1 {
+	color: #658C08;
+	font-size: 2.8125rem;
+	font-family: 'Krona One', sans-serif;
+} 
+
+.apresentacao__conteudo__titulo2 {
+	color: #E63E32;
+	font-size: 1.875rem;
+	font-family: 'Krona One', sans-serif;
+}
+
+.avatar {
+	width: 125%;
+	padding: 15px 0;
+}
+
+.apresentacao__lista {
+	display: flex;
+	flex-direction: column;
+	align-items: start;
+	gap: 12px;
+}
+
+.apresentacao__conteudo__titulo3 {
+	color: #DD722A;
+	font-size: 1.1875rem;
+	font-family: 'Krona One', sans-serif;
+}
+
+.apresentacao__conteudo__texto {
+	color: #6A99E4;
+	font-size: 1.25rem;
+	font-family: "Montserrat", sans-serif;
+}
+
+.apresentacao__conteudo__texto2 {
+	font-size: 1.25rem;
+	font-family: "Montserrat", sans-serif;
+}
+
+.terra {
+	color: #658C08;
+}
+
+.fogo {
+	color: #E63E32;;
+}
+
+.ar {
+	color: #DD722A;
+}
+
+.água {
+	color: #6A99E4;
+}
+
+.titulo__youtube {
+	color: white;
+	margin: 50px;
+	font-size: 1.25rem;
+	font-weight: bold;
+	font-family: 'Krona One', sans-serif;
+	text-align: center;
+}
+
+.link {
+	text-decoration: none;
+	border: 2px solid white;
+	color: #FFFFFF;
+	margin: 18px;
+	font-size: 1.375rem;
+	border-radius: 14px;
+	padding: 7px 7px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: 450;
+	display: flex;
+	justify-content: center;
+	gap: 5px;
+}
+
+.link:hover {
+	background-color: #272727;
+	cursor: pointer;
+}
+
+.rodape {
+	background-color: #FFFFFF;
+	color: #000000;
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	padding: 24px;
+	font-size: 1.25rem;
+	font-weight: 400;
+}
+
